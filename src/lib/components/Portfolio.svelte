@@ -19,27 +19,27 @@
         <div class="card">
             <div class="cardtext">Blank Slate</div>
             <!-- svelte-ignore a11y-missing-content -->
-            <a href="/blankslate2" class="cardlink"></a>
+            <a href="{base}/blankslate2" class="cardlink"></a>
         </div>
         <div class="card">
             <div class="cardtext">Blank Slate</div>
             <!-- svelte-ignore a11y-missing-content -->
-            <a href="/blankslate3" class="cardlink"></a>
+            <a href="{base}/blankslate3" class="cardlink"></a>
         </div>
         <div class="card">
             <div class="cardtext">Blank Slate</div>
             <!-- svelte-ignore a11y-missing-content -->
-            <a href="/blankslate4" class="cardlink"></a>
+            <a href="{base}/blankslate4" class="cardlink"></a>
         </div>
         <div class="card">
             <div class="cardtext">Blank Slate</div>
             <!-- svelte-ignore a11y-missing-content -->
-            <a href="/blankslate5" class="cardlink"></a>
+            <a href="{base}/blankslate5" class="cardlink"></a>
         </div>
         <div class="card">
             <div class="cardtext">Blank Slate</div>
             <!-- svelte-ignore a11y-missing-content -->
-            <a href="/blankslate6" class="cardlink"></a>
+            <a href="{base}/blankslate6" class="cardlink"></a>
         </div>
     </div>
     <div id="particles-js"></div>
