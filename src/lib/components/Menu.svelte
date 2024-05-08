@@ -20,9 +20,9 @@
         easing: backOut
     }}>
         <div id="menu-items">
-            <a href="{base}/#landingSection" class="menu-item">Home</a>
-            <a href="{base}/#portfolioSection" class="menu-item">Work</a>
-            <a href="{base}/#aboutSection" class="menu-item">About</a>
+            <a href="{base}#landingSection" class="menu-item">Home</a>
+            <a href="{base}#portfolioSection" class="menu-item">Work</a>
+            <a href="{base}#aboutSection" class="menu-item">About</a>
         </div>
     </div>
 {/if}
