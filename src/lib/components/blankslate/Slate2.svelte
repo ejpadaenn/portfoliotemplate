@@ -16,7 +16,7 @@
         <h2>'Your work title here.'</h2>
     </div>
     <div class="showcase">
-        <img src="/images/imgdefault.svg" alt="placeholder" class="placeholdimg"/>
+        <img src="static/images/imgdefault.svg" alt="placeholder" class="placeholdimg"/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta lectus nunc, vestibulum venenatis eros imperdiet eu.
             Nulla cursus lectus felis, ac cursus ligula pharetra eget. Etiam malesuada porta tortor at gravida. Vivamus pretium libero vel porta porttitor.
             Ut eu arcu luctus, cursus massa nec, luctus arcu. Sed quam dui, pretium sed vulputate ultricies, accumsan vel lorem.

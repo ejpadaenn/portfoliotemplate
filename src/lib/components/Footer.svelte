@@ -3,9 +3,9 @@
         <h1>'Reach Me'</h1>
         <h2>yournamehere 2024</h2>
         <div class="iconwrapper">
-            <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer"><img src="/images/socials/bxl-behance.svg" alt="behance" class="icon"/></a>
-            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="/images/socials/bxl-instagram.svg" alt="instagram" class="icon"/></a>
-            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><img src="/images/socials/bxl-linkedin.svg" alt="linkedin" class="icon"></a>
+            <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer"><img src="static/images/socials/bxl-behance.svg" alt="behance" class="icon"/></a>
+            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="static/images/socials/bxl-instagram.svg" alt="instagram" class="icon"/></a>
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><img src="static/images/socials/bxl-linkedin.svg" alt="linkedin" class="icon"></a>
         </div>
     </div>
 </html>
