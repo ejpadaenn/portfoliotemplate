@@ -4,6 +4,8 @@
     import { backOut } from 'svelte/easing'
 
     let animate = false
+
+    import { base } from '$app/paths';
 </script>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0"/>
@@ -18,9 +20,9 @@
         easing: backOut
     }}>
         <div id="menu-items">
-            <a href="/#landingSection" class="menu-item">Home</a>
-            <a href="/#portfolioSection" class="menu-item">Work</a>
-            <a href="/#aboutSection" class="menu-item">About</a>
+            <a href="{base}/#landingSection" class="menu-item">Home</a>
+            <a href="{base}/#portfolioSection" class="menu-item">Work</a>
+            <a href="{base}/#aboutSection" class="menu-item">About</a>
         </div>
     </div>
 {/if}
