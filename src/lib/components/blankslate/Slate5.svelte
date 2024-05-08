@@ -2,6 +2,8 @@
     console.log("slate1.svelte is loaded!")
 
     import Footer from '../SlateFooter.svelte'
+
+    import { base } from '$app/paths';
 </script>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -9,7 +11,7 @@
 <html lang="en">
     <div class="header">
         <h1>'yournamehere'</h1>
-        <a href="/" class="backlink"><span class="back material-symbols-outlined">keyboard_backspace</span></a>
+        <a href="{base}/" class="backlink"><span class="back material-symbols-outlined">keyboard_backspace</span></a>
     </div>
     <div class="slatelanding">
         <h3>Showcase #5</h3>
