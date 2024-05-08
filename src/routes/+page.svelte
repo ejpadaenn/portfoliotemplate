@@ -10,8 +10,6 @@
     import About from '../lib/components/About.svelte'
 
     import Footer from '../lib/components/Footer.svelte'
-
-    const base = ""
 </script>
 
 <Menu />
