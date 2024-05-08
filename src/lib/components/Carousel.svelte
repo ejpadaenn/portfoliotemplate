@@ -4,9 +4,9 @@
     export let duration
 
     let imagePaths = [
-      "static/images/imgdef1.svg",
-      "static/images/imgdef2.svg",
-      "static/images/imgdef3.svg"
+      "assets/images/imgdef1.svg",
+      "assets/images/imgdef2.svg",
+      "assets/images/imgdef3.svg"
     ];
 
     let currentSlide = 0;

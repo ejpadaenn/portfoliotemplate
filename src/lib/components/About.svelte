@@ -4,7 +4,7 @@
         <h1>About</h1>
     </div>
     <div class="mainbody">
-        <img src="static/images/imgdefault.svg" alt="placeholder" class="placeholdimg">
+        <img src="assets/images/imgdefault.svg" alt="placeholder" class="placeholdimg">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta lectus nunc, vestibulum venenatis eros imperdiet eu.
             Nulla cursus lectus felis, ac cursus ligula pharetra eget. Etiam malesuada porta tortor at gravida. Vivamus pretium libero vel porta porttitor.
