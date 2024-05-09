@@ -51,7 +51,6 @@
 
 <style>
     html {
-        background-color: #1c1a1a;
         max-width: 100%;
         height: auto;
         margin: 0;
@@ -125,7 +124,7 @@
         height: 120%;
 
         position: absolute;
-        top: 120vh;
+        top: 220vh;
 
         z-index: 1;
         opacity: 100;
