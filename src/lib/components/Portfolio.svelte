@@ -44,8 +44,8 @@
     </div>
     <div id="particles-js"></div>
 
-    <script src="{base}/assets/particles.js"></script>
-    <script src="{base}/assets/app.js"></script>
+    <script src="assets/particles.js"></script>
+    <script src="assets/app.js"></script>
 
 </html>
 
