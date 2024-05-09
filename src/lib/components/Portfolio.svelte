@@ -44,7 +44,7 @@
     </div>
     <div id="particles-js"></div>
 
-    <script src="assets/particles.min.js"></script>
+    <script src="assets/particles.js"></script>
     <script src="assets/app.js"></script>
 
 </html>
@@ -121,13 +121,12 @@
 
     #particles-js {
         width: 100%;
-        height: 100%;
+        height: 110%;
 
         position: absolute;
         top: 120vh;
 
         z-index: 1;
-        opacity: 100;
     }
 
     #sectionwrapper1 {
