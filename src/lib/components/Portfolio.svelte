@@ -55,6 +55,8 @@
         max-width: 100%;
         height: auto;
         margin: 0;
+
+        z-index: -1;
     }
 
     html::-webkit-scrollbar {
