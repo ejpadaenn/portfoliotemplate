@@ -127,7 +127,7 @@
         position: absolute;
         top: 120vh;
 
-        z-index: 1;
+        z-index: 10;
     }
 
     #sectionwrapper1 {
