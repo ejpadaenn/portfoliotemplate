@@ -121,7 +121,7 @@
 
     #particles-js {
         width: 100%;
-        height: 120%;
+        height: 100%;
 
         position: absolute;
         top: 120vh;
