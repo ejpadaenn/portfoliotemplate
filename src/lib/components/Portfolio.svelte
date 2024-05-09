@@ -122,6 +122,9 @@
         width: 100%;
         height: 120%;
 
+        position: absolute;
+        top: 120vh;
+
         z-index: 1;
     }
 
