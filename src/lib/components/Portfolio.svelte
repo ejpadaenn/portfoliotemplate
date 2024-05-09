@@ -124,7 +124,7 @@
         height: 120%;
 
         position: absolute;
-        top: 220vh;
+        top: 120vh;
 
         z-index: 1;
         opacity: 100;
