@@ -16,7 +16,7 @@
         <div class="card">
             <div class="cardtext">Blank Slate</div>
             <!-- svelte-ignore a11y-missing-content -->
-            <a href="{base}/blankslate1" class="cardlink"></a>
+            <a href="{base}/particletest" class="cardlink"></a>
         </div>
         <div class="card">
             <div class="cardtext">Blank Slate</div>

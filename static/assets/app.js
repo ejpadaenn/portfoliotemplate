@@ -1,10 +1,14 @@
-particlesJS("particles-js", {
+//modified app js
+
+particlesJS('particles-js',
+
+{
   "particles": {
     "number": {
-      "value": 380,
+      "value": 60,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1000
       }
     },
     "color": {
@@ -71,8 +75,8 @@ particlesJS("particles-js", {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
-        "mode": "grab"
+        "enable": false,
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
@@ -82,7 +86,7 @@ particlesJS("particles-js", {
     },
     "modes": {
       "grab": {
-        "distance": 140,
+        "distance": 400,
         "line_linked": {
           "opacity": 1
         }
@@ -107,4 +111,6 @@ particlesJS("particles-js", {
     }
   },
   "retina_detect": true
-});
+}
+
+);
