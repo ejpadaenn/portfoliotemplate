@@ -126,6 +126,12 @@
         position: absolute;
         top: 120vh;
 
+        background-color: #1c1a1a;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+
         z-index: 1;
     }
 
