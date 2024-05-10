@@ -12,38 +12,7 @@
 
     <div id="particles-js"></div>
 
-    <div class="cardwrapper">
-        <div class="card">
-            <div class="cardtext">Blank Slate</div>
-            <!-- svelte-ignore a11y-missing-content -->
-            <a href="{base}/blankslate1" class="cardlink"></a>
-        </div>
-        <div class="card">
-            <div class="cardtext">Blank Slate</div>
-            <!-- svelte-ignore a11y-missing-content -->
-            <a href="{base}/blankslate2" class="cardlink"></a>
-        </div>
-        <div class="card">
-            <div class="cardtext">Blank Slate</div>
-            <!-- svelte-ignore a11y-missing-content -->
-            <a href="{base}/blankslate3" class="cardlink"></a>
-        </div>
-        <div class="card">
-            <div class="cardtext">Blank Slate</div>
-            <!-- svelte-ignore a11y-missing-content -->
-            <a href="{base}/blankslate4" class="cardlink"></a>
-        </div>
-        <div class="card">
-            <div class="cardtext">Blank Slate</div>
-            <!-- svelte-ignore a11y-missing-content -->
-            <a href="{base}/blankslate5" class="cardlink"></a>
-        </div>
-        <div class="card">
-            <div class="cardtext">Blank Slate</div>
-            <!-- svelte-ignore a11y-missing-content -->
-            <a href="{base}/blankslate6" class="cardlink"></a>
-        </div>
-    </div>
+    
     
 
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
