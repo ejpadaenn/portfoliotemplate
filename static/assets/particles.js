@@ -1097,7 +1097,7 @@ var pJS = function(tag_id, params){
       });
 
       /* el on onmouseleave */
-      pJS.interactivity.el.addEventListener('mouseleave', function(_e){
+      pJS.interactivity.el.addEventListener('mouseleave', function(e){
 
         pJS.interactivity.mouse.pos_x = null;
         pJS.interactivity.mouse.pos_y = null;
@@ -1206,7 +1206,7 @@ var pJS = function(tag_id, params){
     /* set color to svg element */
     var svgXml = pJS.tmp.source_svg,
         rgbHex = /#([0-9A-F]{3,6})/gi,
-        coloredSvgXml = svgXml.replace(rgbHex, function (_m, _r, _g, _b) {
+        coloredSvgXml = svgXml.replace(rgbHex, function (m, r, g, b) {
           if(p.color.rgb){
             var color_value = 'rgba('+p.color.rgb.r+','+p.color.rgb.g+','+p.color.rgb.b+','+p.opacity+')';
           }else{
@@ -1450,7 +1450,7 @@ function hexToRgb(hex){
   // By Tim Down - http://stackoverflow.com/a/5624139/3493650
   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
   var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-  hex = hex.replace(shorthandRegex, function(_m, r, g, b) {
+  hex = hex.replace(shorthandRegex, function(m, r, g, b) {
      return r + r + g + g + b + b;
   });
   var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);

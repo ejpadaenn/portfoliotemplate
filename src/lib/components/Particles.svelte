@@ -1,7 +1,7 @@
 <html lang="en">
     <div id="particles-js"></div>
 
-    <script src="assets/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="assets/app.js"></script>
 </html>
 
@@ -15,7 +15,7 @@
 
         background-color: #1c1a1a;
         background-image: url("");
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-size: cover;
         background-position: 50% 50%;
 
