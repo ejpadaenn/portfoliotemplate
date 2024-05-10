@@ -1,5 +1,5 @@
 <script>
-    console.log("slate1.svelte is loaded!")
+    console.log("slate2.svelte is loaded!")
 
     import Footer from '../SlateFooter.svelte'
 
