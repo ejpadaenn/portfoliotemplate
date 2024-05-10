@@ -2,6 +2,8 @@
     console.log("Portfolio.svelte is loaded!")
 
     import { base } from '$app/paths';
+
+    import Particles from '$lib/components/Particles.svelte'
 </script>
 
 <html lang=en>
@@ -10,13 +12,40 @@
         <h1>My Work</h1>
     </div>
 
-    <div id="particles-js"></div>
+    <div class="cardwrapper">
+        <div class="card">
+            <div class="cardtext">Blank Slate</div>
+            <!-- svelte-ignore a11y-missing-content -->
+            <a href="{base}/blankslate1" class="cardlink"></a>
+        </div>
+        <div class="card">
+            <div class="cardtext">Blank Slate</div>
+            <!-- svelte-ignore a11y-missing-content -->
+            <a href="{base}/blankslate2" class="cardlink"></a>
+        </div>
+        <div class="card">
+            <div class="cardtext">Blank Slate</div>
+            <!-- svelte-ignore a11y-missing-content -->
+            <a href="{base}/blankslate3" class="cardlink"></a>
+        </div>
+        <div class="card">
+            <div class="cardtext">Blank Slate</div>
+            <!-- svelte-ignore a11y-missing-content -->
+            <a href="{base}/blankslate4" class="cardlink"></a>
+        </div>
+        <div class="card">
+            <div class="cardtext">Blank Slate</div>
+            <!-- svelte-ignore a11y-missing-content -->
+            <a href="{base}/blankslate5" class="cardlink"></a>
+        </div>
+        <div class="card">
+            <div class="cardtext">Blank Slate</div>
+            <!-- svelte-ignore a11y-missing-content -->
+            <a href="{base}/blankslate6" class="cardlink"></a>
+        </div>
+    </div>
 
-    
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="assets/app.js"></script>
+    <Particles />
 
 </html>
 
@@ -88,22 +117,6 @@
 
         gap: 3rem;
         padding: 5rem;
-    }
-
-    #particles-js {
-        width: 100%;
-        height: 110%;
-
-        position: absolute;
-        top: 120vh;
-
-        background-color: #1c1a1a;
-        background-image: url("");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-
-        z-index: 1;
     }
 
     #sectionwrapper1 {
