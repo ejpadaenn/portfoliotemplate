@@ -4,7 +4,7 @@
     onMount(() => {
         console.log('attaching particles js');
         const script = document.createElement('script');
-        script.src = 'assets/particles.js'; // might be outdated so check for an update can link
+        script.src = 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'; // might be outdated so check for an update can link
         document.body.appendChild(script);
     });
 </script>
