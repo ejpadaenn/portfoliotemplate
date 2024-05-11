@@ -144,6 +144,8 @@
 
         position: relative;
         left: 80vw;
+
+        background-color: #e63232
     }
 
     .current {
