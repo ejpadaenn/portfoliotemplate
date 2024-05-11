@@ -35,9 +35,9 @@
         height: auto;
         max-width: 100%;
 
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 15% 1fr 15%;
     }
 
     .placeholdimg {
@@ -46,15 +46,18 @@
         object-fit: cover;
 
         margin-top: 5rem;
+        grid-row: 1;
+        grid-column: 2;
+        justify-self: center;
     }
 
     #sectionwrapper1 {
         width: 100%;
         height: auto;
         
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 10% 1fr 10%;
     }
     
     .sectionline {
@@ -62,7 +65,9 @@
         height: 2px;
         background-color: rgba(230 50 50 / 35%);
 
-        margin-top: 2rem;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        align-self: end;
     }
 
     h1 {
@@ -73,7 +78,10 @@
         color: white;
         font-size: 4rem;
 
-        margin-bottom: 0;
+        margin-top: 0;
+        grid-row: 2;
+        grid-column: 2 / 3;
+        align-self: start;
     }
 
     p {
@@ -89,5 +97,9 @@
         margin-top: 5rem;
         text-align: justify;
         text-justify: inter-word;
+
+        grid-row: 2;
+        grid-column: 2;
+        justify-self: center;
     }
 </style>

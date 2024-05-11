@@ -123,9 +123,9 @@
         width: 100%;
         height: auto;
         
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 10% 1fr 10%;
     }
     
     .sectionline {
@@ -133,7 +133,10 @@
         height: 2px;
         background-color: rgba(230 50 50 / 35%);
 
-        margin-top: 2rem;
+        margin-top: 1rem;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        align-self: end;
     }
     
     h1 {
@@ -144,6 +147,9 @@
         color: white;
         font-size: 3rem;
 
-        margin-bottom: 0;
+        margin-top: 0;
+        grid-row: 2;
+        grid-column: 2 / 3;
+        align-self: start;
     }
 </style>
