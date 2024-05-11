@@ -70,6 +70,8 @@
         width: 30px;
 
         filter: invert(100%);
+
+        opacity: 0.4;
     }
 
     .icon:hover {
