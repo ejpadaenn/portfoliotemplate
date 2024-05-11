@@ -131,7 +131,7 @@
     .sectionline {
         width: 90%;
         height: 2px;
-        background-color: #e63232;
+        background-color: rgba(230 50 50 / 35%);
 
         margin-top: 2rem;
     }

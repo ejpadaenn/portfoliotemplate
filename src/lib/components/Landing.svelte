@@ -35,7 +35,8 @@
         max-width: 100%;
 
         background-color: #1c1a1a;
-        border-bottom: 2px solid #e63232;
+        border-bottom: 2px solid rgba(230 50 50 / 35%);
+        
 
         position: absolute;
         left: 0px;
