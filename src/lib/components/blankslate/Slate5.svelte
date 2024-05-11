@@ -108,6 +108,7 @@
     }
 
     .back:hover {
+        transition: all 0.3s ease-out;
         opacity: 1;
     }
 
