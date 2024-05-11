@@ -5,13 +5,7 @@
         console.log('attaching particles js');
         const script = document.createElement('script');
         script.src = 'assets/particles.js'; // might be outdated so check for an update can link
-        script.onload = () => {
-            console.log('loading particles.js');
-            particlesJS.load('assets/app.js', () => {
-            console.log('particles.js loaded');
-         });
-       };
-       document.body.appendChild(script);
+        document.body.appendChild(script);
     });
 </script>
 
