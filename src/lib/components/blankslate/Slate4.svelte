@@ -104,6 +104,11 @@
     .back {
         font-size: 2.5rem;
         color: white;
+        opacity: 0.6;
+    }
+
+    .back:hover {
+        opacity: 1;
     }
 
     h1 {
