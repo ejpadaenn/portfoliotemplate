@@ -22,7 +22,7 @@
         align-items: center;
         justify-content: center;
 
-        border-top: 2px solid rgba(255 255 255 / 35%);
+        border-top: 2px solid rgba(230 50 50 / 35%);
 
         margin-top: 5rem;
     }
