@@ -1,20 +1,21 @@
 <script>
     import { onMount } from 'svelte';
-
-    import { base } from '$app/paths'
      
     onMount(() => {
         console.log('attaching particles js');
         const script = document.createElement('script');
-        script.src = '{base}/assets/particles.js'; // might be outdated so check for an update can link
+        script.src = 'assets/particles.js'; // might be outdated so check for an update can link
         document.body.appendChild(script);
+
+        console.log('attaching app js');
+        const config = document.createElement('script');
+        config.src = 'assets/app.js'; // might be outdated so check for an update can link
+        document.body.appendChild(config);
     });
 </script>
 
 <html lang="en">
     <div id="particles-js"></div>
-
-    <script src="assets/app.js"></script>
 </html>
 
 <style>
