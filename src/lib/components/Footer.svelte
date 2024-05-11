@@ -76,6 +76,9 @@
 
     .icon:hover {
         transition: all 0.3s ease-out;
+
+        opacity: 1;
+
         filter: invert(19%) sepia(76%) saturate(3334%) hue-rotate(354deg) brightness(90%) contrast(93%);
     }
 </style>

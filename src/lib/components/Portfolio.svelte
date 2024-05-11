@@ -92,7 +92,7 @@
         font-weight: 200;
         font-style: normal;
         font-size: 1rem;
-        color: white;
+        color: #e63232;
 
         z-index: 5;
         opacity: 0;
