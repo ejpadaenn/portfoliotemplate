@@ -63,7 +63,7 @@
         bottom: 6rem;
 
         background-color: #333333;
-        border: 2px solid rgba(255 255 255 / 35%);
+        border: 2px solid #e63232;
         border-radius: 3.5rem;
 
         cursor: pointer;
@@ -97,7 +97,7 @@
         z-index: 5;
 
         border-radius: 1.5rem;
-        border: 2px solid rgba(255 255 255 / 35%);
+        border: 2px solid #e63232;
 
         min-height: 10vw;
 

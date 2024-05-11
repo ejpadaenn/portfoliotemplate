@@ -84,7 +84,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
+        color: #cf1515;
         font-size: 7rem;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 300;

@@ -60,7 +60,7 @@
     .sectionline {
         width: 90%;
         height: 2px;
-        background-color: white;
+        background-color: #e63232;
 
         margin-top: 2rem;
     }
