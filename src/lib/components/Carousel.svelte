@@ -9,19 +9,19 @@
       "assets/images/imgdef3.svg"
     ];
 
-    let currentSlide = 1;
+    let currentSlide = 0;
 
-    const nextSlide= () => {
+    const nextSlide = () => {
         currentSlide++
         if (currentSlide >= imagePaths.length) {
-            currentSlide = 1
+            currentSlide = 0
         }
         timer()
     }
 
-    const prevSlide= () => {
+    const prevSlide = () => {
         currentSlide--
-        if (currentSlide <= 1) {
+        if (currentSlide <= 0) {
             currentSlide = imagePaths.length - 1
         }
         timer()
