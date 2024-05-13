@@ -24,7 +24,7 @@
         height: 110%;
 
         position: absolute;
-        top: 110vh;
+        top: 120vh;
 
         background-color: #1c1a1a;
         background-image: url("");
@@ -34,4 +34,23 @@
 
         z-index: 1;
     }
+
+    @media screen and (min-width: 2000px) {
+    #particles-js {
+        width: 100%;
+        height: 95%;
+
+        position: absolute;
+        top: 120vh;
+
+        background-color: #1c1a1a;
+        background-image: url("");
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+
+        z-index: 1;
+    }
+  }
+}
 </style>
