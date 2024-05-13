@@ -35,7 +35,7 @@
         z-index: 1;
     }
 
-    @media screen and (min-width: 2000px) {
+    @media screen and (min-width: 3000px) {
     #particles-js {
         width: 100%;
         height: 95%;
