@@ -24,7 +24,7 @@
         height: 110%;
 
         position: absolute;
-        top: 120vh;
+        top: 110vh;
 
         background-color: #1c1a1a;
         background-image: url("");
