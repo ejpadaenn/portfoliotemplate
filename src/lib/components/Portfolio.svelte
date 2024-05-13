@@ -126,6 +126,8 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 10% 1fr 10%;
+
+        z-index: 3;
     }
     
     .sectionline {
